@@ -8,7 +8,7 @@
     use app\core\Model;
     use app\core\View;
     use app\core\Router;
-    use app\core\Extract;
+
+    session_start();
 
     Router::start();
-    Router::error("2020");

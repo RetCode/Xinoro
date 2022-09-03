@@ -6,8 +6,5 @@
 
     class indexModel extends Model
     {
-        function indexAction()
-        {
-            $this->views->run();
-        }
+
     }

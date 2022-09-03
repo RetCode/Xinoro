@@ -1,21 +1,33 @@
 <?php
 
     namespace app\core;
+    use Exception;
 
-use Exception;
+    /**
+    *|-----------------------------------------------------------------
+    *|
+    *|  This file contains the database class, contains all the
+    *|  methods needed for Xinoro to work.
+    *|
+    *|  by xoheveras
+    *|-----------------------------------------------------------------
+    **/
 
-    // mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
     const HOST = "localhost";
     const USER = "root";
     const PASSWORD = "root";
-    const BASENAME = "polandshop";
+    const BASENAME = "Xinoro";
     const PORT = "3306";
 
-    /* База данных  */
-    /* by xoheveras */
     class DataBase
     {
         public static function connect() { return mysqli_connect(HOST, USER, PASSWORD, BASENAME, PORT); }
+
+        /**
+        *|-----------------------------------------------------------------
+        *|  @param string $query - String query containing SQL commands
+        *|-----------------------------------------------------------------
+        **/
 
         public static function Query($query)
         {
@@ -38,6 +50,12 @@ use Exception;
             }
         }
 
+        /**
+        *|-----------------------------------------------------------------
+        *|  @param string $query - String query containing SQL commands
+        *|-----------------------------------------------------------------
+        **/
+
         public static function QueryAll($query)
         {
             try
@@ -53,7 +71,12 @@ use Exception;
             }
         }
 
-        
+        /**
+        *|-----------------------------------------------------------------
+        *|  @param string $query - String query containing SQL commands
+        *|-----------------------------------------------------------------
+        **/
+
         public static function QueryUpd($query)
         {
             try

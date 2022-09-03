@@ -26,6 +26,8 @@
         /**
         *|-----------------------------------------------------------------
         *|  @param string $query - String query containing SQL commands
+        *|
+        *|  Return 1 line in query
         *|-----------------------------------------------------------------
         **/
 
@@ -53,6 +55,8 @@
         /**
         *|-----------------------------------------------------------------
         *|  @param string $query - String query containing SQL commands
+        *|
+        *|  Return all line in query
         *|-----------------------------------------------------------------
         **/
 
@@ -74,6 +78,8 @@
         /**
         *|-----------------------------------------------------------------
         *|  @param string $query - String query containing SQL commands
+        *|
+        *|  executes commands(UPDATE, INSERT, CREATE, etc..)
         *|-----------------------------------------------------------------
         **/
 

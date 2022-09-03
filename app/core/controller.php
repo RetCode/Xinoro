@@ -38,9 +38,9 @@
         **/
 
         public function createModel($controller)
-		{
-			$model = $controller."Model";
-			require_once("app/models/".$model.".php");
-			$this->model = new $model($this->controller,$this->action);
-		}
+        {
+            $model = $controller."Model";
+            require_once("app/models/".$model.".php");
+            $this->model = new $model($this->controller,$this->action);
+        }
     }

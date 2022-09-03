@@ -7,6 +7,6 @@
     {
         function indexAction()
         {
-            $this->views->run();
+            $this->view->run();
         }
     }

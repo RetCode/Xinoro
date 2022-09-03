@@ -6,6 +6,6 @@
 	<title>Document</title>
 </head>
 <body>
-
+	Добро пожаловать в Xinoro
 </body>
 </html>

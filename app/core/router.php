@@ -49,7 +49,7 @@
 
         public static function error($code)
         {
-            echo "Error - $code"
+            echo "Error - $code";
             exit;
         }
     }

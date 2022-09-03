@@ -1,6 +1,7 @@
 <?php
 
     namespace app\core;
+    use app\core\DataBase;
 
     /**
     *|-----------------------------------------------------------------
@@ -15,7 +16,7 @@
 
     class Model
     {
-    	protected DataBase;
+    	protected $DataBase;
 
         function __construct()
         {

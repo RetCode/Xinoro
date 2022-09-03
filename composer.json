@@ -4,7 +4,9 @@
             "app/core/controller.php",
             "app/core/model.php",
             "app/core/view.php",
-            "app/core/router.php"
+            "app/core/router.php",
+            "app/core/db.php"
         ]
     }
 }
+// composer update

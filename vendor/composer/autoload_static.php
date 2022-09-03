@@ -11,6 +11,7 @@ class ComposerStaticInitc86e3541b9438c2b419b8453e8839970
         'ee20c23f3b81c7714ba7d5d7f3e8f280' => __DIR__ . '/../..' . '/app/core/model.php',
         'ca7708ca61ee2d3b9f68c41bcdceb9e6' => __DIR__ . '/../..' . '/app/core/view.php',
         '6907ec48c23ea9d50ab52659b8797643' => __DIR__ . '/../..' . '/app/core/router.php',
+        '4b793df0732bafe77c63ba15295ab648' => __DIR__ . '/../..' . '/app/core/db.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

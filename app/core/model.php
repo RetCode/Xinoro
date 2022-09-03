@@ -6,10 +6,5 @@
     /* by xoheveras                         */
     class Model
     {
-        protected $database;
-
-        function __construct()
-        {
-            // $database =
-        }
+        
     }

@@ -9,9 +9,16 @@
         protected $model;
         protected $view;
 
-        function __construct()
+        function __construct($controller, $action)
         {
-            // $model = 
-            // $view =
+            $this->createModel($controller);
+            $this->view = new View($controller, $action);
         }
+
+        public function createModel($controller)
+		{
+			$model = $controller."Model";
+			require_once("app/models/".$model.".php");
+			$this->model = new $model($this->controller,$this->action);
+		}
     }

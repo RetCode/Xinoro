@@ -8,6 +8,7 @@
     use app\core\Model;
     use app\core\View;
     use app\core\Router;
+    use app\core\Utils;
 
     session_start();
 

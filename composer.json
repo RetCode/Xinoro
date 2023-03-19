@@ -5,7 +5,8 @@
             "app/core/model.php",
             "app/core/view.php",
             "app/core/router.php",
-            "app/core/db.php"
+            "app/core/db.php",
+            "app/core/utils.php"
         ]
     }
 }

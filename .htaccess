@@ -6,7 +6,6 @@ php_value docref_ext 1
 
 RewriteEngine On
 
-
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-l

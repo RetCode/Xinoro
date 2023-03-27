@@ -8,5 +8,8 @@
             "app/core/db.php",
             "app/core/utils.php"
         ]
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.8"
     }
 }

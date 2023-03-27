@@ -2,6 +2,7 @@
 
     namespace app\core;
     use app\core\DataBase;
+    use app\core\Utils;
 
     /**
     *|-----------------------------------------------------------------

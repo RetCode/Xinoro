@@ -15,8 +15,8 @@
 
     const HOST = "localhost";
     const USER = "root";
-    const PASSWORD = "root";
-    const BASENAME = "Xinoro";
+    const PASSWORD = "";
+    const BASENAME = "XNRBOTS";
     const PORT = "3306";
 
     class DataBase

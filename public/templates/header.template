@@ -1,0 +1,31 @@
+<nav class="nav-box">
+    <div class="adaptive-container">
+        <div class="nav-column">
+            <a href="/panel"><img src="public/img/logo.svg"></a>
+        </div>
+        <div class="nav-column">
+            <ul>
+                <a href="/panel"><li>Панель</li></a>
+                <a href="/profile"><li>Профиль</li></a>
+                <a href="/market"><li>Маркет</li></a>
+                <a href="/status"><li>Статус сервера</li></a>
+                <a href="/support"><li>Поддержка</li></a>
+            </ul>
+        </div>
+        <div class="nav-column">
+            <button class="lk-button">%%USERNAME%%</button>
+            <div class="notification-box">
+                <button class="notification-window-button"><img src="public/img/notification img.svg"></button>
+                <div class="notification-window">
+                    <p>Пока нет уведомлений</p>
+                </div>
+            </div>
+            
+            <button>
+                <a href="/logout">
+                    <img src="public/img/leave img.svg">
+                </a>
+            </button>
+        </div>
+    </div>        
+</nav>

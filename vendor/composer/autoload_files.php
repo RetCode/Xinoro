@@ -6,10 +6,20 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    '320cde22f66dd4f5d3fd621d3e88b98f' => $vendorDir . '/symfony/polyfill-ctype/bootstrap.php',
+    '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => $vendorDir . '/symfony/polyfill-mbstring/bootstrap.php',
+    'a4a119a56e50fbb293281d9a48007e0e' => $vendorDir . '/symfony/polyfill-php80/bootstrap.php',
     'abb644fb511c133b589d5244a4a60687' => $baseDir . '/app/core/controller.php',
     'ee20c23f3b81c7714ba7d5d7f3e8f280' => $baseDir . '/app/core/model.php',
     'ca7708ca61ee2d3b9f68c41bcdceb9e6' => $baseDir . '/app/core/view.php',
     '6907ec48c23ea9d50ab52659b8797643' => $baseDir . '/app/core/router.php',
     '4b793df0732bafe77c63ba15295ab648' => $baseDir . '/app/core/db.php',
     'b710d6ad052cf7757a2aceedd561d1f2' => $baseDir . '/app/core/utils.php',
+    'a55ead8cbe2b92a4c9d5ab72f8add83c' => $baseDir . '/app/core/validations.php',
+    '2335d4c1ab23a7e12b31c68f5bc4345b' => $baseDir . '/app/core/templatesData.php',
+    '33326cf540843eddc71c2661d9ac8869' => $baseDir . '/app/interfaces/userInterfaces.php',
+    '9c260928bf2d0281fd14f10710806b15' => $baseDir . '/app/interfaces/sendCodeInterfaces.php',
+    'aa9575ae691e3f84560fa5a797070a3e' => $baseDir . '/app/interfaces/subInfoInterfaces.php',
+    'c0ec4096fb775279f1f16515dd5e3471' => $baseDir . '/app/interfaces/sessionInterfaces.php',
+    '259ce40066b44bcaed6a1b727f2e029e' => $vendorDir . '/phpmailer/PHPMailerAutoload.php',
 );

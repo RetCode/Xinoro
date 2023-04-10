@@ -1,12 +1,13 @@
 <?php
+use app\core\Controller;
+use app\core\DataBase;
 
-    use app\core\Controller;
-    use app\core\DataBase;
-
-    class indexController extends Controller
+class indexController extends Controller
+{
+    function indexAction()
     {
-        function indexAction()
-        {
-            $this->view->run();
-        }
+        $this
+            ->view
+            ->run();
     }
+}

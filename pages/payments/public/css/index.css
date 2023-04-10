@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap%27');
+
+*
+{
+    font-family: "Montserrat";
+
+    margin: 0;
+
+    text-decoration: none;
+}
+
+body
+{
+    background: #1B202F;
+}
+
+.container
+{
+    width: 1380px;
+    margin: 0 auto;
+}
+
+.main-box
+{
+    margin-bottom: 64vh;
+}
+
+.menu-box
+{
+    background-color: #29314B;
+    width: 100%;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-box button
+{
+    background-color: transparent;
+    border-color: transparent;
+    font-weight: 600;
+    font-size: 15px;
+    color: #6A759A;
+    padding: 0;
+    margin-right: 27px;
+    cursor: pointer;
+}
+
+.page-name-box
+{
+    display: flex;
+    align-items: center;
+    margin-top: 29px;
+    margin-bottom: 18px;
+}
+
+.blue-dot
+{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+
+    background: #4760DA;
+    box-shadow: 0px 0px 10px #4760DA;
+
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+.page-text
+{
+    font-weight: 600;
+    font-size: 15px;
+    color: #A3AED3;
+
+}
+
+.payment-method
+{
+    margin-bottom: 18px;
+    display: flex;
+    width: 16%;
+    justify-content: space-between;
+}
+
+.payment-text
+{
+    font-weight: 600;
+    font-size: 15px;
+    color: #6A759A;
+}
+
+.checkbox-box
+{
+    margin-left: 53px;
+}
+
+.checkbox-box input
+{
+    opacity: 0;
+    z-index: -1;
+    display: none;
+}
+
+.checkbox-box input+label
+{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    overflow: hidden;
+    cursor: pointer;
+    width: 45px;
+    height: 20px;
+    background: #22293F;
+    border-radius: 5px;
+}
+
+.main-content
+{
+    display: flex;
+}
+
+.right-box
+{
+    width: 100%;
+}
+
+.data-box
+{
+    background: #22293F;
+    border-radius: 5px;
+    padding-top: 22px;
+    padding-left: 27px;
+    padding-right: 69px;
+    padding-bottom: 42px;
+}
+
+.data-text
+{
+    font-weight: 600;
+    font-size: 15px;
+    color: #A3AED3;
+}
+
+.input-box
+{
+    margin-top: 25px;
+    width: 100%;
+}
+
+.input-box input
+{
+    background: #20263A;
+    border-radius: 5px;
+    border-color: transparent;
+    width: 100%;
+    height: 46px;
+    margin-top: 11px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #6A759A;
+    padding-left: 18px;
+    padding-right: 18px;
+}
